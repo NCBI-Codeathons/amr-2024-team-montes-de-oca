@@ -17,7 +17,7 @@ The output tables obtained from the script have the following format:
 
 #### Output from approach n°1
 A table file including the following columns:
-* qseqid: query sequence id, usually the contig name from a given draft genoma
+* qseqid: query sequence id, usually the contig name from a given draft genome
 * sseqid: subject sequence id, the antibiotic resistance gene sequence name
 * pident: identity percentage
 * ppos: similarity percentage
