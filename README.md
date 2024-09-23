@@ -1,11 +1,16 @@
-# Team Project Name
+# Team Montes de Oca
 
 List of participants and affiliations:
-- Participant, Affiliation (Team Leader)
-- Participant, Affiliation
+- Marco Montes de Oca
+- Weilong Hao
+- Genelle Jenkins
+- Jake Lance
+- Mackenzie Wilke
+- Joe Wirth
+- Axl Cepeda
 
 ## Project Goals
-
+This project aims to investigate the relationship between insertion sequences and antibiotic resistance phenotypes by analyzing draft and complete genomes. The goal is to identify patterns in insertion sequence distribution among susceptible and resistant isolates and visualize the findings.
 ## Approach
 
 ## Results
