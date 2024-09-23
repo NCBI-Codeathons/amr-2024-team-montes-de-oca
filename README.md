@@ -12,7 +12,7 @@ List of participants and affiliations:
 ## Project Goals
 This project aims to investigate the relationship between insertion sequences and antibiotic resistance phenotypes by analyzing draft and complete genomes. The goal is to identify patterns in insertion sequence distribution among susceptible and resistant isolates and visualize the findings.
 ## Approach
-The approach involves comparing coding sequences from each isolate against databases using BLAST. These databases may include [The Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca/), to identify genes associated with antibiotic resistance, as well as [IS Finder](https://isfinder.biotoul.fr/#), to identify insertion sequences. Once the insertion sequences and resistance genes are identified, the team will compare the insertion sequence profile between resistant and susceptible isolates.
+The approach involves comparing coding sequences from each isolate against databases using BLAST. These databases may include [The Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca/), to identify genes associated with antibiotic resistance, as well as [IS Finder](https://isfinder.biotoul.fr/#), to identify insertion sequences. Once the insertion sequences and resistance genes are identified, the team will compare the insertion sequence profile between resistant and susceptible isolates. A code to start finding these elements is [here](https://github.com/NCBI-Codeathons/amr-2024-team-montes-de-oca/blob/main/Notebook.ipynb).
 ## Results
 
 ## Future Work
