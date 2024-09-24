@@ -27,6 +27,17 @@ A table file including the following columns:
 * send: subject sequence end position
 * evalue: BLAST alignment evalue
 * scov: subject coverage percentage
+
+## Steps
+* Collect reference porin sequences to build a local BLAST database
+  * Use the ones in Table 1 from this [paper](https://academic.oup.com/jac/article/63/4/659/713667?login=false)
+  * Could search NCBI Gene or Nucleotide for these porin sequences (filter by E.coli)
+* Find porin coding sequences in our 163 isolates with BLAST
+  * Modify GoogleColab script to download the fasta files for these isolates
+* Find indels within porin coding sequences
+* Identify insertion sequences within those porin sequences
+
+
 ## Results
 
 ## Future Work
