@@ -4,7 +4,6 @@ List of participants and affiliations:
 - Marco Montes de Oca
 - Weilong Hao
 - Genelle Jenkins
-- Jake Lance
 - Mackenzie Wilke
 - Joe Wirth
 - Axl Cepeda
