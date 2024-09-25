@@ -4,7 +4,6 @@ List of participants and affiliations:
 - Marco Montes de Oca
 - Weilong Hao
 - Genelle Jenkins
-- Jake Lance
 - Mackenzie Wilke
 - Joe Wirth
 - Axl Cepeda
@@ -12,7 +11,7 @@ List of participants and affiliations:
 ## Project Goals
 This project aims to investigate the relationship between insertion sequences and antibiotic resistance phenotypes by analyzing draft and complete genomes. The goal is to identify patterns in insertion sequence distribution among susceptible and resistant isolates and visualize the findings.
 ## Approach
-The approach involves comparing coding sequences from each isolate against databases using [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi). These databases may include [The Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca/), to identify genes associated with antibiotic resistance, as well as [IS Finder](https://isfinder.biotoul.fr/#), to identify insertion sequences. Once the insertion sequences and resistance genes are identified, the team will compare the insertion sequence profile between resistant and susceptible [isolates](https://github.com/NCBI-Codeathons/amr-2024-team-montes-de-oca/blob/main/Assemblies_Team_Montes_de_Oca.xlsx). A code to start finding these elements is [here](https://github.com/NCBI-Codeathons/amr-2024-team-montes-de-oca/blob/main/Notebook.ipynb).
+The approach involves comparing coding sequences from each isolate against databases using [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi). These databases may include [AMRFinder NCBI Database](https://github.com/ncbi/amr), to identify genes associated with antibiotic resistance, as well as [IS Finder](https://isfinder.biotoul.fr/#), to identify insertion sequences. Once the insertion sequences and resistance genes are identified, the team will compare the insertion sequence profile between resistant and susceptible [isolates](https://github.com/NCBI-Codeathons/amr-2024-team-montes-de-oca/blob/main/Assemblies_Team_Montes_de_Oca.xlsx). A code to start finding these elements is [here](https://github.com/NCBI-Codeathons/amr-2024-team-montes-de-oca/blob/main/Notebook.ipynb).
 The output tables obtained from the script have the following format:
 
 #### Output from approach n°1
@@ -28,6 +27,17 @@ A table file including the following columns:
 * send: subject sequence end position
 * evalue: BLAST alignment evalue
 * scov: subject coverage percentage
+
+## Steps
+* Collect reference porin sequences to build a local BLAST database
+  * Use the ones in Table 1 from this [paper](https://academic.oup.com/jac/article/63/4/659/713667?login=false)
+  * Could search NCBI Gene or Nucleotide for these porin sequences (filter by E.coli)
+* Find porin coding sequences in our 163 isolates with BLAST
+  * Modify GoogleColab script to download the fasta files for these isolates
+* Find indels within porin coding sequences
+* Identify insertion sequences within those porin sequences
+
+
 ## Results
 
 ## Future Work
